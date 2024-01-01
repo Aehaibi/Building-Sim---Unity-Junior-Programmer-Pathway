@@ -40,7 +40,6 @@ public class MainManager : MonoBehaviour
 
         File.WriteAllText(Application.persistentDataPath + "/savefile.json", json);
     }
-
     //this method is a reversal of the SaveColor method
     public void LoadColor() 
     {
